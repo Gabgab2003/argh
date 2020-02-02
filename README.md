@@ -100,7 +100,7 @@ struct WithPositional {
 ```
 
 The last positional argument may include a default, or be wrapped in
-`Option` or `Vec` to indicate an optional or repeating positional arugment.
+`Option` or `Vec` to indicate an optional or repeating positional argument.
 
 Subcommands are also supported. To use a subcommand, declare a separate
 `FromArgs` type for each subcommand as well as an enum that cases
